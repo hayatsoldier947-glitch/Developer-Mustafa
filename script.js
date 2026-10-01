@@ -12,4 +12,8 @@ function contactMe() {
 }
 
 setInterval(updateTime, 1000);
-updateTime();
+updateTime();function showProject() {
+    alert("Ye mera first web development project hai! 🚀");
+}function sendMessage() {
+    alert("Thanks! Your message has been received. 😎");
+}

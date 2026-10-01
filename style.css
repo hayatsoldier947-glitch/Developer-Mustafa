@@ -74,4 +74,116 @@ button:hover {
 
 nav a:hover {
     text-decoration: underline;
+}.clock {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+#time {
+    font-size: 45px;
+    margin-top: 15px;
+}.skills {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.skills h2 {
+    font-size: 35px;
+}
+
+.skill-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill-box p {
+    background: #222;
+    padding: 15px 25px;
+    border-radius: 10px;
+}.projects {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.projects h2 {
+    font-size: 35px;
+}
+
+.project-box {
+    max-width: 500px;
+    margin: auto;
+    padding: 25px;
+    background: #222;
+    border-radius: 15px;
+}
+
+.project-box h3 {
+    font-size: 25px;
+}
+
+.project-box p {
+    color: #bbb;
+}.contact-form {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 80%;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+}
+
+.contact-form textarea {
+    height: 120px;
+    resize: none;
+}@media (max-width: 600px) {
+
+    nav {
+        padding: 15px 5px;
+    }
+
+    nav a {
+        margin: 0 6px;
+        font-size: 14px;
+    }
+
+    .hero {
+        padding: 70px 15px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .about,
+    .contact,
+    .skills,
+    .projects,
+    .contact-form,
+    .clock {
+        padding: 40px 15px;
+    }
+
+    .skill-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-box p {
+        width: 150px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 90%;
+    }
 }
