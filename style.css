@@ -186,4 +186,12 @@ nav a:hover {
     .contact-form textarea {
         width: 90%;
     }
+}.profile-circle {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 25px;
+    box-shadow: 0 0 20px rgba(0, 200, 255, 0.8);
 }
