@@ -16,4 +16,6 @@ updateTime();function showProject() {
     alert("Ye mera first web development project hai! 🚀");
 }function sendMessage() {
     alert("Thanks! Your message has been received. 😎");
+}function toggleMode() {
+    document.body.classList.toggle("light-mode");
 }
